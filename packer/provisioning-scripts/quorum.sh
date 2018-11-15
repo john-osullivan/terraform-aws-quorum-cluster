@@ -4,7 +4,7 @@ set -eu -o pipefail
 RELEASE="v1.2.1-modified"
 
 source /etc/profile.d/quorum-custom.sh
-git clone https://github.com/Eximchain/quorum.git
+git clone https://github.com/andreweximchain/quorum/
 pushd quorum >/dev/null
 git checkout $RELEASE
 make all

@@ -24,6 +24,7 @@ stderr_logfile=/opt/quorum/log/init-quorum-error.log
 numprocs=1
 autostart=true
 autorestart=unexpected
+loglevel=debug
 stopsignal=INT
 user=ubuntu
 environment=VAULT_ADDR=$VAULT_URL
